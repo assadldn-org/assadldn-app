@@ -12,7 +12,7 @@ on:
 env:
    DOCKER_REPOSITORY: assadldn # name of Docker Hub ID
    IMAGE_NAME: assadldn-app
-   IMAGE_TAG: ${{ github.run_number }} # $GITHUB_RUN_NUMBER##
+   IMAGE_TAG: ${{ github.run_number }} # $GITHUB_RUN_NUMBER
 
 jobs:
   CI-Code:
